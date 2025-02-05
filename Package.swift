@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.4.0
+// v1.5.0
 let package = Package(
   name: "PAGAdSDK",
   defaultLocalization: "en",
@@ -44,7 +44,6 @@ let package = Package(
           .linkedFramework("CFNetwork"),
           .linkedFramework("MediaPlayer"),
           .linkedFramework("QuartzCore"),
-          .linkedFramework("CoreAudioTypes"),
       ]
     ),
     .testTarget(
