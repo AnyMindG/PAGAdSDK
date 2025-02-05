@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-// v1.2.0
+// v1.3.0
 let package = Package(
   name: "PAGAdSDK",
   defaultLocalization: "en",
@@ -20,6 +20,8 @@ let package = Package(
       url: "https://github.com/AnyMindG/AllFrameworks/releases/download/10000.3.0/PAGAdSDK.zip", // Add actual URL
       checksum: "c6363d4f71824814089dd40be94448484e73d930ecb0e18e7586d03f9dcbda35" // Add actual checksum
     ),
+    // comment out
+    
 //    .target(
 //      name: "PAGAdSDK",
 //      dependencies: [],
